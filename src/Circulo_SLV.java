@@ -1,7 +1,7 @@
 
 public class Circulo_SLV extends FiguraGeometrica_SLV {
 	private double radio;
-	//Constante pi
+	// Constante pi
 	static final double PI = 3.1416;
 	
 	public Circulo_SLV(double r, String tipoFigura) {
