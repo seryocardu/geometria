@@ -17,13 +17,9 @@ public class Triangulo_SLV extends FiguraGeometrica_SLV {
 	}
 
 	@Override
-	public double area() { //Utiliza la formula de Her—n
-		double sp;
-		sp = this.semiPerimetro();
-		return Math.sqrt(sp * (sp-lado1) * (sp-lado2) * (sp-lado3));
+	public double area() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
-	
-	public double semiPerimetro() {
-		return this.perimetro() / 2;
-	}
+
 }

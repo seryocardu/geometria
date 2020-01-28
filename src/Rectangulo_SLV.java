@@ -19,4 +19,7 @@ public class Rectangulo_SLV extends FiguraGeometrica_SLV {
 		return (2 * l1) + (2 * l2);
 	}
 
+	public double semiPerimetro() {
+		return this.perimetro() / 2;
+	}
 }
