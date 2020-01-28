@@ -1,4 +1,8 @@
-
+/**
+ * 
+ * @author Sergio Larrion Vidorreta
+ *
+ */
 public class Rectangulo_SLV extends FiguraGeometrica_SLV {
 	private double l1;
 	private double l2;
